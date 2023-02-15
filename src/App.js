@@ -1,12 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import Assignment from "./Components/Assignment";
 function App() {
   return (
     <div className="App">
-      <h1>HIIII</h1>
+    <Assignment/>
     </div>
-  );
-}
-
+  )
+};
 export default App;
